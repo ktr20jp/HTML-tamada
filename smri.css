@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	color: #333;
+	font-size: 13px;
+	line-height: 150%;
+}
+
+#header img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: auto;
+}
+
+#wrapper {
+
+}
+
+#nav ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    list-style: none;
+}
+#nav ul li {
+    text-align: center;
+}
+#nav ul li a {
+    background-color: orange;
+    display: block;
+    height: 20px;
+    margin: 0;
+    padding: 10px;
+    color: #FFF;
+    font-size: 20px;
+    text-decoration: none;
+    border-left: 1px solid white;
+}
+#nav ul li a:hover {
+    filter: drop-shadow(10px 10px 10px black);
+}
+
+#footer {
+    width: 100%;
+}
+#footer p {
+    background-color: orange;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+}
+
+#container {
+    width: 100%;
+    margin: auto;
+    padding-top: 20px;
+    clear: both;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+#main {
+    width: 95%;
+    padding: 10px 30px 10px 10px;
+}
+
+#main h2 {
+    margin: 0 0 10px 0;
+    padding: 3px 10px 3px 10px;
+    color: #FFF;
+    font-size: 16px;
+    border-left: solid 10px	#339900;
+    background-color:	#66CC33;
+}
+#main p {
+    margin: 0;
+    padding: 0;
+}
+#main .post {
+    margin: 0 0 30px 0;
+}
+#main .post img .right {
+    margin: 0 0 0 8px;
+}
+#main .post img .left {
+    margin: 0 8px 0 0;
+}
+
+.right {
+    float: right;
+    width: 40%;
+    height: auto;
+}
+.left {
+    float: left;
+    width: 40%;
+    height: auto;
+}
+
+.clearfix {
+    zoom: 1;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#side {
+    width: 85%;
+    padding: 20px;
+    background-color: #339900;
+}
+#side .box {
+    margin: 0 auto 30px auto;
+    padding: 0 0 20px 0;
+}
+#side .box h2 {
+    margin: 0;
+    padding: 8px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: normal;
+}
+#side .box .boxBody {
+    padding: 8px;
+    border-right: solid 1px orange;
+    border-bottom: solid 1px orange;
+    border-left: solid 1px orange;
+    background: #FFF;
+}
+#side .box .boxBody ul {
+    margin: 0 0 16px 0;
+    padding: 0;
+}
+#side .box .boxBody ul li {
+    padding: 8px 0 8px 4px;
+    list-style: none;
+    border-bottom: solid 1px orange;
+}
+#side .box .boxBody ul li:hover {
+    padding: 8px 0 8px 4px;
+    list-style: none;
+    border-bottom: solid 1px orange;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
